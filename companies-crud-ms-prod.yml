@@ -1,0 +1,7 @@
+spring:
+  jackson:
+    time-zone: America/Mexico_City
+  datasource:
+    username: root-prod
+    url: jdbc:postgresql://localhost:5431/companies
+    password: admin-prod
