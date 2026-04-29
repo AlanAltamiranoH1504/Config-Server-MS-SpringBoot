@@ -3,3 +3,5 @@ report:
 feign: # CIRCUITE BREAKER PARA CONEXION A MS CAIDOS O SATURADOS
   circuitbreaker:
     enabled: true
+fallback: 
+  uri: "http://localhost:8787/companies-crud-fallback/api/v1/company/{idCompany}"
